@@ -1,0 +1,75 @@
+<!DOCTYPE html>
+
+<html lang="ru">
+<head>
+    <meta charset="utf-8">
+    <title>Урок 3 CSS </title>
+
+```
+<style>
+    /* Абзацы */
+    p {
+        text-indent: 2.5em;
+        margin-top: 0.2em;
+        margin-bottom: 0.2em;
+    }
+
+    /* Буквица */
+    p.letter:first-letter {
+        font-weight: bold;
+        font-size: 2em;
+        color: red;
+    }
+
+    /* strong */
+    strong {
+        color: red;
+    }
+
+    /* span с классом */
+    span.accent {
+        background: #bfffbf;
+        color: blue;
+        font-weight: bold;
+    }
+</style>
+```
+
+</head>
+
+<body>
+
+<p>
+По умолчанию браузер визуально отделяет абзацы друг от друга 
+вертикальным отступом.
+</p>
+
+<p>
+В данном примере этим свойствам задано небольшое значение (0.2em).
+</p>
+
+<p>
+Кроме того каждый абзац имеет отступ первой строки.
+</p>
+
+<p class="letter">
+Буквица — это эффект выделения первой буквы абзаца.
+</p>
+
+<p class="letter">
+Первая буква увеличена и окрашена с помощью CSS.
+</p>
+
+<p>
+Элемент <strong>strong</strong> делает текст жирным, 
+<em>em</em> — курсивом, 
+а <span class="accent">span применяет стиль</span>.
+</p>
+
+<p><abbr title="World Wide Web">WWW</abbr></p>
+
+<p>Так выглядит <tt>моноширинный текст</tt>.</p>
+
+</body>
+</html>
+
